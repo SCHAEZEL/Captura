@@ -75,7 +75,7 @@ namespace Captura.ViewModels
         {
             if (E.Mode == PowerModes.Suspend && RecorderState == RecorderState.Recording)
             {
-                OnPauseExecute();
+                // OnPauseExecute();
             }
         }
 
